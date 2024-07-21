@@ -41,7 +41,7 @@ def is_option(func):
 def IP_Track():
     ip = input(f"{Wh}\n Enter IP target : {Gr}")  # INPUT IP ADDRESS
     print()
-    print(f' {Wh}============= {Gr}SHOW INFORMATION IP ADDRESS {Wh}=============')
+    print(f' {Wh}============= {Gr}SHOW INFORMATION IP ADDRESS by Rishi  {Wh}=============')
     req_api = requests.get(f"http://ipwho.is/{ip}")  # API IPWHOIS.IS
     ip_data = json.loads(req_api.text)
     time.sleep(2)
@@ -266,7 +266,7 @@ def option():
     / /_/ / / / / /_/ (__  ) /_/_____/ / / /  / /_/ / /__/ ,<   
     \____/_/ /_/\____/____/\__/     /_/ /_/   \__,_/\___/_/|_| 
 
-              {Wh}[ + ]  C O D E   B Y  H U N X  [ + ]
+              {Wh}[ + ]  C O D E   B Y  R i h i 💀  [ + ]
     """)
 
     stderr.writelines(f"\n\n\n{option_text()}")
@@ -279,7 +279,7 @@ def run_banner():
          .-.
        .'   `.          {Wh}--------------------------------
        :g g   :         {Wh}| {Gr}GHOST - TRACKER - IP ADDRESS {Wh}|
-       : o    `.        {Wh}|       {Gr}@CODE BY HUNXBYTS      {Wh}|
+       : o    `.        {Wh}|       {Gr}@CODE BY RishiHeartMaker💀      {Wh}|
       :         ``.     {Wh}--------------------------------
      :             `.
     :  :         .   `.
